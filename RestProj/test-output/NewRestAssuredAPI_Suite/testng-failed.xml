@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NewRestAssuredAPI_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="NewAPI_Tests(failed)">
+    <classes>
+      <class name="com.newproject.apitests.USPopulationDetailsResponseSpecTest">
+        <methods>
+          <include name="getUSPopulationDetails2022AndValidateResponseSpec"/>
+          <include name="setupResponseSpecification"/>
+        </methods>
+      </class> <!-- com.newproject.apitests.USPopulationDetailsResponseSpecTest -->
+    </classes>
+  </test> <!-- NewAPI_Tests(failed) -->
+</suite> <!-- Failed suite [NewRestAssuredAPI_Suite] -->

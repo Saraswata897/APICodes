@@ -1,0 +1,56 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<!--
+    TestNG Suite for running Selenium tests in parallel on a Grid.
+    - parallel="tests": This attribute tells TestNG to run each <test> tag concurrently.
+    - thread-count="5": This sets the maximum number of threads TestNG will use.
+                       Since you have 5 nodes (and want 5 parallel tests), this is set to 5.
+                       The Grid will then distribute these 5 concurrent requests among your available browser slots.
+-->
+<suite name="Selenium Grid Parallel Tests" parallel="tests" thread-count="5">
+
+
+
+    <!-- Test 1: Dedicated to Edge browser, executing tests from TestClassA -->
+    <test name="Edge Test 1 - Class A">
+        <!-- Parameter to pass the browser type to the BaseTest setup method -->
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="com.example.grid.tests.TestA"/>
+        </classes>
+    </test>
+
+    <!-- Test 2: Dedicated to Edge browser, executing tests from TestClassB -->
+    <test name="Edge Test 2 - Class B">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="com.example.grid.tests.TestB"/>
+        </classes>
+    </test>
+
+    <!-- Test 3: Dedicated to Edge browser, executing tests from TestClassC.
+                 This ensures TestClassC is run specifically with Edge. -->
+    <test name="Edge Test 3 - Class C">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="com.example.grid.tests.TestC"/>
+        </classes>
+    </test>
+
+    <!-- Test 4: Dedicated to Chrome browser, executing tests from TestClassA -->
+    <test name="Chrome Test 1 - Class A">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.example.grid.tests.TestA"/>
+        </classes>
+    </test>
+
+    <!-- Test 5: Dedicated to Chrome browser, executing tests from TestClassB -->
+    <test name="Chrome Test 2 - Class B">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.example.grid.tests.TestB"/>
+        </classes>
+    </test>
+
+</suite>

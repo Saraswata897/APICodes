@@ -1,0 +1,3699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.467" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\2408650\eclipsenew-workspace\RestProj\target\test-classes;C:\Users\2408650\eclipsenew-workspace\RestProj\target\classes;C:\Users\2408650\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\2408650\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\2408650\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\2408650\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\2408650\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\2408650\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\2408650\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\2408650\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\2408650\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\2408650\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\2408650\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\2408650\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\2408650\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2408650\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\2408650\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\2408650\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\2408650\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\2408650\.m2\repository\io\cucumber\cucumber-testng\7.18.0\cucumber-testng-7.18.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-java\4.22.0\selenium-java-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-api\4.22.0\selenium-api-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.22.0\selenium-chrome-driver-4.22.0.jar;C:\Users\2408650\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.22.0\selenium-chromium-driver-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-json\4.22.0\selenium-json-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.22.0\selenium-manager-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.22.0\selenium-devtools-v124-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.22.0\selenium-devtools-v125-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.22.0\selenium-devtools-v126-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.22.0\selenium-devtools-v85-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.22.0\selenium-edge-driver-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.22.0\selenium-firefox-driver-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-http\4.22.0\selenium-http-4.22.0.jar;C:\Users\2408650\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.22.0\selenium-ie-driver-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.22.0\selenium-remote-driver-4.22.0.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-api\1.39.0\opentelemetry-api-1.39.0.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-context\1.39.0\opentelemetry-context-1.39.0.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.39.0\opentelemetry-exporter-logging-1.39.0.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.39.0\opentelemetry-sdk-common-1.39.0.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.39.0\opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.39.0\opentelemetry-sdk-extension-autoconfigure-1.39.0.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.39.0-alpha\opentelemetry-api-incubator-1.39.0-alpha.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.39.0\opentelemetry-sdk-trace-1.39.0.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.39.0\opentelemetry-sdk-1.39.0.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.39.0\opentelemetry-sdk-metrics-1.39.0.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.39.0\opentelemetry-sdk-logs-1.39.0.jar;C:\Users\2408650\.m2\repository\net\bytebuddy\byte-buddy\1.14.17\byte-buddy-1.14.17.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-os\4.22.0\selenium-os-4.22.0.jar;C:\Users\2408650\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.22.0\selenium-safari-driver-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-support\4.22.0\selenium-support-4.22.0.jar;C:\Users\2408650\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.0\webdrivermanager-5.9.0.jar;C:\Users\2408650\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\2408650\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\2408650\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\2408650\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\2408650\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\2408650\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\2408650\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\2408650\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\2408650\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\2408650\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\2408650\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\2408650\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\2408650\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\2408650\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\2408650\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\2408650\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\2408650\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\2408650\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\2408650\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\2408650\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\2408650\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\2408650\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\2408650\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\2408650\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\2408650\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\2408650\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\2408650\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\2408650\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\2408650\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\2408650\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\2408650\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\2408650\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2408650\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\2408650\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\2408650\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\2408650\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2408650\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\2408650\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\2408650\.m2\repository\org\apache\commons\commons-csv\1.10.0\commons-csv-1.10.0.jar;C:\Users\2408650\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\2408650\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\2408650\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\2408650\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\2408650\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\2408650\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\2408650\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\2408650\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\2408650\.m2\repository\org\slf4j\slf4j-simple\1.7.32\slf4j-simple-1.7.32.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\2408650\AppData\Local\Temp\surefire9786571293561114001\surefirebooter-20250704102714210_3.jar C:\Users\2408650\AppData\Local\Temp\surefire9786571293561114001 2025-07-04T10-27-14_035-jvmRun1 surefire-20250704102714210_1tmp surefire_0-20250704102714210_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\2408650\eclipsenew-workspace\RestProj\target\test-classes;C:\Users\2408650\eclipsenew-workspace\RestProj\target\classes;C:\Users\2408650\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\2408650\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\2408650\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\2408650\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\2408650\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\2408650\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\2408650\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\2408650\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\2408650\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\2408650\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\2408650\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\2408650\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\2408650\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2408650\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\2408650\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\2408650\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\2408650\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\2408650\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\2408650\.m2\repository\io\cucumber\cucumber-testng\7.18.0\cucumber-testng-7.18.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-java\4.22.0\selenium-java-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-api\4.22.0\selenium-api-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.22.0\selenium-chrome-driver-4.22.0.jar;C:\Users\2408650\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.22.0\selenium-chromium-driver-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-json\4.22.0\selenium-json-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.22.0\selenium-manager-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.22.0\selenium-devtools-v124-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.22.0\selenium-devtools-v125-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.22.0\selenium-devtools-v126-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.22.0\selenium-devtools-v85-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.22.0\selenium-edge-driver-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.22.0\selenium-firefox-driver-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-http\4.22.0\selenium-http-4.22.0.jar;C:\Users\2408650\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.22.0\selenium-ie-driver-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.22.0\selenium-remote-driver-4.22.0.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-api\1.39.0\opentelemetry-api-1.39.0.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-context\1.39.0\opentelemetry-context-1.39.0.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.39.0\opentelemetry-exporter-logging-1.39.0.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.39.0\opentelemetry-sdk-common-1.39.0.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.39.0\opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.39.0\opentelemetry-sdk-extension-autoconfigure-1.39.0.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.39.0-alpha\opentelemetry-api-incubator-1.39.0-alpha.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.39.0\opentelemetry-sdk-trace-1.39.0.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.39.0\opentelemetry-sdk-1.39.0.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.39.0\opentelemetry-sdk-metrics-1.39.0.jar;C:\Users\2408650\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.39.0\opentelemetry-sdk-logs-1.39.0.jar;C:\Users\2408650\.m2\repository\net\bytebuddy\byte-buddy\1.14.17\byte-buddy-1.14.17.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-os\4.22.0\selenium-os-4.22.0.jar;C:\Users\2408650\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.22.0\selenium-safari-driver-4.22.0.jar;C:\Users\2408650\.m2\repository\org\seleniumhq\selenium\selenium-support\4.22.0\selenium-support-4.22.0.jar;C:\Users\2408650\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.0\webdrivermanager-5.9.0.jar;C:\Users\2408650\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\2408650\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\2408650\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\2408650\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\2408650\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\2408650\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\2408650\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\2408650\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\2408650\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\2408650\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\2408650\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\2408650\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\2408650\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\2408650\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\2408650\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\2408650\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\2408650\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\2408650\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\2408650\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\2408650\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\2408650\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\2408650\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\2408650\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\2408650\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\2408650\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\2408650\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\2408650\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\2408650\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\2408650\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\2408650\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\2408650\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\2408650\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2408650\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\2408650\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\2408650\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\2408650\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2408650\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\2408650\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\2408650\.m2\repository\org\apache\commons\commons-csv\1.10.0\commons-csv-1.10.0.jar;C:\Users\2408650\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\2408650\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\2408650\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\2408650\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\2408650\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\2408650\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\2408650\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\2408650\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\2408650\.m2\repository\org\slf4j\slf4j-simple\1.7.32\slf4j-simple-1.7.32.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\2408650"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-09-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\2408650\eclipsenew-workspace\RestProj"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\2408650\AppData\Local\Temp\surefire9786571293561114001\surefirebooter-20250704102714210_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21+35-LTS-2513"/>
+    <property name="user.name" value="2408650"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\2408650\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\2408650\AppData\Local\Temp\"/>
+    <property name="java.version" value="21"/>
+    <property name="user.dir" value="C:\Users\2408650\eclipsenew-workspace\RestProj"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\ProgramFiles\MySQL\MySQL Shell 8.0\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Maven 3.9.9\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Users\2408650\AppData\Local\Microsoft\WindowsApps;C:\Users\2408650\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\2408650\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.5\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21+35-LTS-2513"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="countUniversitiesInFranceAndLogResponse" classname="com.newproject.apitests.CountUniversitiesResponseLog" time="2.961">
+    <system-out><![CDATA[
+--- Sending GET request to count universities in France ---
+Request method:	GET
+Request URI:	http://universities.hipolabs.com/search?country=France
+Proxy:			<none>
+Request params:	<none>
+Query params:	country=France
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+--- Captured Response Log (from ResponseLoggingFilter) ---
+HTTP/1.1 200 OK
+Server: nginx/1.14.0
+Date: Fri, 04 Jul 2025 04:57:19 GMT
+Content-Type: application/json
+Content-Length: 60267
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+
+[
+    {
+        "name": "National Institute of Applied Sciences of Toulouse",
+        "alpha_two_code": "FR",
+        "country": "France",
+        "state-province": null,
+        "web_pages": [
+            "https://insa-toulouse.fr"
+        ],
+        "domains": [
+            "insa-toulouse.fr"
+        ]
+    },
+    {
+        "name": "IÉSEG School of Management",
+        "alpha_two_code": "FR",
+        "country": "France",
+        "state-province": null,
+        "web_pages": [
+            "https://ieseg.fr"
+        ],
+        "domains": [
+            "ieseg.fr"
+        ]
+    },
+    {
+        "name": "Central Supélec",
+        "alpha_two_code": "FR",
+        "country": "France",
+        "state-province": null,
+        "web_pages": [
+            "https://www.centralesupelec.fr/"
+        ],
+        "domains": [
+            "centralesupelec.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Académie de Paris",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.ac-paris.fr/"
+        ],
+        "domains": [
+            "ac-paris.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Académie d'Aix-Marseille",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.ac-aix-marseille.fr/"
+        ],
+        "domains": [
+            "ac-aix-marseille.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Académie de Créteil",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.ac-creteil.fr/"
+        ],
+        "domains": [
+            "ac-creteil.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "42 FR",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.42.fr/"
+        ],
+        "domains": [
+            "student.42.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole de l'Air",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.aea.asso.fr/"
+        ],
+        "domains": [
+            "aea.asso.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "AgroParisTech",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.agroparistech.fr/"
+        ],
+        "domains": [
+            "agroparistech.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure d'Agronomie de Rennes",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://agro.roazhon.inra.fr/"
+        ],
+        "domains": [
+            "agro.roazhon.inra.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "AgroSup Dijon",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.agrosupdijon.fr/"
+        ],
+        "domains": [
+            "agrosupdijon.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "American Graduate School in Paris",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ags.edu/"
+        ],
+        "domains": [
+            "ags.edu"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "American University of Paris",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.aup.fr/"
+        ],
+        "domains": [
+            "aup.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure de Commerce de Sophia Antipolis",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ceram.edu/"
+        ],
+        "domains": [
+            "ceram.edu"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Centre d'Etudes Supérieures Industrielles Paris",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.cesi.fr/"
+        ],
+        "domains": [
+            "cesi.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Centre de Formation et de Perfectionnement des Journalistes",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.cfpj.com/"
+        ],
+        "domains": [
+            "cfpj.com"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Conservatoire National des Arts et Métiers",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.cnam.fr/"
+        ],
+        "domains": [
+            "cnam.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Centre National d'Etudes Agronomiques des Régions Chaudes",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.cnearc.fr/"
+        ],
+        "domains": [
+            "cnearc.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure de Chimie Physique Electronique de Lyon",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.cpe.fr/"
+        ],
+        "domains": [
+            "cpe.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Bordeaux I",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.cribx1.u-bordeaux.fr/"
+        ],
+        "domains": [
+            "cribx1.u-bordeaux.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut des Sciences de l'Ingénieur de Clermont-Ferrand",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://cust.univ-bpclermont.fr/"
+        ],
+        "domains": [
+            "cust.univ-bpclermont.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Paris-Dauphine (Paris IX)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.dauphine.fr/"
+        ],
+        "domains": [
+            "dauphine.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Superieur d'Ingenieurs Leonard de Vinci",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.devinci.fr/"
+        ],
+        "domains": [
+            "devinci.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole d'Ingénieurs en Informatique pour l'Industrie",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.e3i.univ-tours.fr/"
+        ],
+        "domains": [
+            "e3i.univ-tours.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Européen des Affaires",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.eap.fr/"
+        ],
+        "domains": [
+            "eap.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "European Business School",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ebs-paris.com/"
+        ],
+        "domains": [
+            "ebs-paris.com"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Catholique d'Arts & Metiers",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ecam.fr/"
+        ],
+        "domains": [
+            "ecam.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Centrale d'Electronique - ECE",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ece.fr/"
+        ],
+        "domains": [
+            "ece.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "IMT Atlantique",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.imt-atlantique.fr/"
+        ],
+        "domains": [
+            "imt-atlantique.net"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Centrale de Lille",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ec-lille.fr/"
+        ],
+        "domains": [
+            "ec-lille.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Centrale de Lyon",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ec-lyon.fr/"
+        ],
+        "domains": [
+            "ec-lyon.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Centrale de Nantes",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ec-nantes.fr/"
+        ],
+        "domains": [
+            "ec-nantes.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Centrale de Marseille",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.centrale-marseille.fr/"
+        ],
+        "domains": [
+            "centrale-marseille.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "IDRAC (Institut de recherche en action commerciale)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ecoles-idrac.com/"
+        ],
+        "domains": [
+            "ecoles-idrac.com"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole des Hautes Etudes Commerciales du Nord",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://edu.edhec.com/"
+        ],
+        "domains": [
+            "edu.edhec.com"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole pour les Etudes et la Recherche en Informatique et Electronique",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.eerie.fr/"
+        ],
+        "domains": [
+            "eerie.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Française de Papeterie et des Industries Graphiques",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.efpg.inpg.fr/"
+        ],
+        "domains": [
+            "efpg.inpg.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Française d'Electronique et d'Informatique",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.efrei.fr/"
+        ],
+        "domains": [
+            "efrei.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole des Ingénieurs de la Ville de Paris",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.eivp-paris.fr/"
+        ],
+        "domains": [
+            "eivp-paris.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "European Management Center Paris",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.emc-campus.com/"
+        ],
+        "domains": [
+            "emc-campus.com"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure de Commerce de Lyon",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.em-lyon.com/"
+        ],
+        "domains": [
+            "em-lyon.com"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure des Mines de St-Etienne",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.emse.fr/"
+        ],
+        "domains": [
+            "emse.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale de l'Aviation Civile",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.enac.fr/"
+        ],
+        "domains": [
+            "enac.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale d'Administration",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ena.fr/"
+        ],
+        "domains": [
+            "ena.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "ENIC Telecom Lille 1",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.enic.fr/"
+        ],
+        "domains": [
+            "enic.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale d'Ingénieurs de Metz",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.enim.fr/"
+        ],
+        "domains": [
+            "enim.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale d'Ingénieurs de Saint-Etienne",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.enise.fr/"
+        ],
+        "domains": [
+            "enise.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale d'Ingénieurs des Travaux Agricoles de Bordeaux",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.enitab.fr/"
+        ],
+        "domains": [
+            "enitab.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale d'Ingénieurs des Travaux Agricoles de Clermont-Ferrand",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.enitac.fr/"
+        ],
+        "domains": [
+            "enitac.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale d'Ingénieurs de Tarbes",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.enit.fr/"
+        ],
+        "domains": [
+            "enit.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale d'Ingénieurs des Techniques des Industries Agricoles et Alimentaires",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.enitiaa-nantes.fr/"
+        ],
+        "domains": [
+            "enitiaa-nantes.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale de la Météorologie",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.enm.meteo.fr/"
+        ],
+        "domains": [
+            "enm.meteo.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale des Ponts et Chausees",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.enpc.fr/"
+        ],
+        "domains": [
+            "enpc.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieur de Mécaniques et des Microtechniques",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ens2m.fr/"
+        ],
+        "domains": [
+            "ens2m.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale de la Statistique et de l'Administration Economique",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ensae.fr/"
+        ],
+        "domains": [
+            "ensae.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure d'Agronomie et des Industries Alimentaires",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ensaia.u-nancy.fr/"
+        ],
+        "domains": [
+            "ensaia.u-nancy.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale de la Statistique et de l'Analyse de l'information",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ensai.fr/"
+        ],
+        "domains": [
+            "ensai.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure des Arts et Industries Textiles",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ensait.fr/"
+        ],
+        "domains": [
+            "ensait.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure d'Agronomie de Montpellier",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ensam.inra.fr/"
+        ],
+        "domains": [
+            "ensam.inra.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure Agronomique de Toulouse",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ensat.fr/"
+        ],
+        "domains": [
+            "ensat.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "École normale supérieure Paris-Saclay",
+        "alpha_two_code": "FR",
+        "state-province": "Île-de-France",
+        "web_pages": [
+            "https://ens-paris-saclay.fr/",
+            "http://www.ens-cachan.fr/"
+        ],
+        "domains": [
+            "ens-paris-saclay.fr",
+            "ens-cachan.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure de Chimie de Clermont-Ferrand",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://ensccf.univ-bpclermont.fr/"
+        ],
+        "domains": [
+            "ensccf.univ-bpclermont.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure de Chimie de Lille",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ensc-lille.fr/"
+        ],
+        "domains": [
+            "ensc-lille.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure de Chimie de Montpellier",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.enscm.fr/"
+        ],
+        "domains": [
+            "enscm.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure de Chimie de Mulhouse",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.enscmu.univ-mulhouse.fr/"
+        ],
+        "domains": [
+            "enscmu.univ-mulhouse.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure de Chimie et de Physique de Bordeaux",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.enscpb.u-bordeaux.fr/"
+        ],
+        "domains": [
+            "enscpb.u-bordeaux.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure de Chimie de Paris",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.enscp.jussieu.fr/"
+        ],
+        "domains": [
+            "enscp.jussieu.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure de Chimie de Rennes",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ensc-rennes.fr/"
+        ],
+        "domains": [
+            "ensc-rennes.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure de l'Electronique et de ses Applications",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ensea.fr/"
+        ],
+        "domains": [
+            "ensea.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure en Electrotechnique, Electronique, Informatique et Hydraulique de Toulouse",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.enseeiht.fr/"
+        ],
+        "domains": [
+            "enseeiht.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure Electricité et Mécanique",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ensem.u-nancy.fr/"
+        ],
+        "domains": [
+            "ensem.u-nancy.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure d'Electronique et de Radioelectricite de Bordeaux",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.enserb.u-bordeaux.fr/"
+        ],
+        "domains": [
+            "enserb.u-bordeaux.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Normale Supérieure de Fontenay-Saint Cloud",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ens-fcl.fr/"
+        ],
+        "domains": [
+            "ens-fcl.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Normale Supérieure de Paris",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ens.fr/"
+        ],
+        "domains": [
+            "ens.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale des Sciences Géographiques",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ensg.ign.fr/"
+        ],
+        "domains": [
+            "ensg.ign.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieur de Géologie de Nancy",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ensg.u-nancy.fr/"
+        ],
+        "domains": [
+            "ensg.u-nancy.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieur d'Ingénieurs de Constructions Aéronautique",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ensica.fr/"
+        ],
+        "domains": [
+            "ensica.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure des Industries Chimiques de Nancy",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ensic.u-nancy.fr/"
+        ],
+        "domains": [
+            "ensic.u-nancy.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieur des Ingénieur des Etudes et Techniques d'Armement",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ensieta.fr/"
+        ],
+        "domains": [
+            "ensieta.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure des Industries Textiles de Mulhouse",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ensitm.fr/"
+        ],
+        "domains": [
+            "ensitm.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Normale Supérieure de Lyon",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ens-lyon.fr/"
+        ],
+        "domains": [
+            "ens-lyon.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieur de Mécanique et d'Aéronautique",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ensma.fr/"
+        ],
+        "domains": [
+            "ensma.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure des Mines d'Alès",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.mines-ales.fr/"
+        ],
+        "domains": [
+            "ensm-ales.fr",
+            "mines-ales.fr",
+            "mines-ales.org"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure des Mines de Douai",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ensm-douai.fr/"
+        ],
+        "domains": [
+            "ensm-douai.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure des Mines de Paris",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ensmp.fr/"
+        ],
+        "domains": [
+            "ensmp.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure de Physique de Marseille",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.enspm.u-3mrs.fr/"
+        ],
+        "domains": [
+            "enspm.u-3mrs.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure de Techniques Avancées",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ensta.fr/"
+        ],
+        "domains": [
+            "ensta.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure des Telecommunications de Bretagne",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.enst-bretagne.fr/"
+        ],
+        "domains": [
+            "enst-bretagne.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure des Telecommunications de Paris",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.enst.fr/"
+        ],
+        "domains": [
+            "enst.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale des Travaux Publics de l'Etat",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.entpe.fr/"
+        ],
+        "domains": [
+            "entpe.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Vétérinaire de Toulouse",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.envt.fr/"
+        ],
+        "domains": [
+            "envt.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "EPF Ecole d'Ingénieurs",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.epf.fr/"
+        ],
+        "domains": [
+            "epf.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure d'Agriculture de Purpan",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.esa-purpan.fr/"
+        ],
+        "domains": [
+            "esa-purpan.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure de Commerce de Bordeaux",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.esc-bordeaux.fr/"
+        ],
+        "domains": [
+            "esc-bordeaux.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure de Commerce de Brest",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.esc-brest.fr/"
+        ],
+        "domains": [
+            "esc-brest.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure de Commerce de Clermont-Ferrand",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.esc-clermont.fr/"
+        ],
+        "domains": [
+            "esc-clermont.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure de Commerce de Dijon",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.escdijon.com/"
+        ],
+        "domains": [
+            "escdijon.com"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure de Commerce et Management",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.escem.fr/"
+        ],
+        "domains": [
+            "escem.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure de Commerce de Lille",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.esc-lille.fr/"
+        ],
+        "domains": [
+            "esc-lille.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure de Commerce de Marseille-Provence",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.esc-marseille.fr/"
+        ],
+        "domains": [
+            "esc-marseille.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure de Commerce de Nantes-Atlantique",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.escna.fr/"
+        ],
+        "domains": [
+            "escna.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure de Commerce de Le Havre/Caen",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.esc-normandie.fr/"
+        ],
+        "domains": [
+            "esc-normandie.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure de Chimie Organique et Minérale",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.escom.fr/"
+        ],
+        "domains": [
+            "escom.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure de Commerce de Pau",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.esc-pau.fr/"
+        ],
+        "domains": [
+            "esc-pau.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure de Commerce de Paris",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.escp.fr/",
+            "https://escp.eu/"
+        ],
+        "domains": [
+            "escp.fr",
+            "escp.eu",
+            "edu.escp.eu"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure de Commerce de Reims",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.esc-reims.edu/"
+        ],
+        "domains": [
+            "esc-reims.edu"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure de Commerce de Rouen",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.esc-rouen.fr/"
+        ],
+        "domains": [
+            "esc-rouen.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure de Commerce de Toulouse",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.esc-toulouse.fr/"
+        ],
+        "domains": [
+            "esc-toulouse.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure d'Electronique de l'Ouest",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.eseo.fr/"
+        ],
+        "domains": [
+            "eseo.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure Internationale d'Administration des Entreprises",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.esiae.fr/"
+        ],
+        "domains": [
+            "esiae.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure d'Informatique-Electronique-Automatique",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.esiea.fr/"
+        ],
+        "domains": [
+            "esiea.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure d'Ingénieurs en Electronique et Electrotechnique",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.esiee.fr/"
+        ],
+        "domains": [
+            "esiee.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure d'Ingénieurs en Génie Electrique",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.esigelec.fr/"
+        ],
+        "domains": [
+            "esigelec.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure d'Ingénieurs de Marseille",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://esim.imt-mrs.fr/"
+        ],
+        "domains": [
+            "esim.imt-mrs.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure d'Ingénieurs et de Techniciens pour l'Agriculture",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.esitpa.org/"
+        ],
+        "domains": [
+            "esitpa.org"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Spéciale de Mécanique et d'Electricité",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.esme.fr/"
+        ],
+        "domains": [
+            "esme.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure de Physique et de Chimie Industrielles",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.espci.fr/"
+        ],
+        "domains": [
+            "espci.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure des Sciences Commerciales d'Angers",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.essca.asso.fr/"
+        ],
+        "domains": [
+            "essca.asso.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure des Sciences Economiques et Commerciales",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.essec.fr/"
+        ],
+        "domains": [
+            "essec.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure des Sciences et Technologie de l'Ingénieur de Nancy",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.esstin.u-nancy.fr/"
+        ],
+        "domains": [
+            "esstin.u-nancy.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Spéciale des Travaux Publics du Bâtiment et de l'Industrie",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.estp.fr/"
+        ],
+        "domains": [
+            "estp.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Universitaire d'Ingénieurs de Lille",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.eudil.fr/"
+        ],
+        "domains": [
+            "eudil.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Catholique de Lille",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.fupl.asso.fr/"
+        ],
+        "domains": [
+            "fupl.asso.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Grenoble Ecole de Management",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.grenoble-em.com/"
+        ],
+        "domains": [
+            "grenoble-em.com",
+            "esc-grenoble.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure d'Agriculture d'Angers",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.groupe-esa.com/"
+        ],
+        "domains": [
+            "groupe-esa.com"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "École des Hautes Études Commerciales (HEC Business School)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.hec.fr/",
+            "http://www.hec.edu/"
+        ],
+        "domains": [
+            "hec.fr",
+            "hec.edu"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole des Hautes Etudes Industrielles de Lille",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.hei.fr/"
+        ],
+        "domains": [
+            "hei.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut Catholique d'Arts et Métiers Lille",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.icam.fr/"
+        ],
+        "domains": [
+            "icam.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut Commercial de Nancy",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.icn-nancy.com/"
+        ],
+        "domains": [
+            "icn-nancy.com"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut Catholique de Paris",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.icp.fr/"
+        ],
+        "domains": [
+            "icp.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut Catholique de Toulouse",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ict-toulouse.asso.fr/"
+        ],
+        "domains": [
+            "ict-toulouse.asso.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut d'Etudes Politiques de Bordeaux",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.iep.u-bordeaux.fr/"
+        ],
+        "domains": [
+            "iep.u-bordeaux.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure du Pétrole et des Monteurs",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ifp.fr/EC/EC000GP1.html"
+        ],
+        "domains": [
+            "ifp.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut National Polytechnique de Toulouse",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.inp-fc.fr/"
+        ],
+        "domains": [
+            "inp-fc.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut National Polytechnique de Lorraine",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.inpl-nancy.fr/"
+        ],
+        "domains": [
+            "inpl-nancy.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut National des Sciences Appliquées de Lyon",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.insa-lyon.fr/"
+        ],
+        "domains": [
+            "insa-lyon.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut National des Sciences Appliquées de Rennes",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.insa-rennes.fr/"
+        ],
+        "domains": [
+            "insa-rennes.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut National des Sciences Appliquées de Rouen",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.insa-rouen.fr/"
+        ],
+        "domains": [
+            "insa-rouen.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut National des Sciences Appliquées de Toulouse",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.insa-tlse.fr/"
+        ],
+        "domains": [
+            "insa-tlse.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut des hautes études économiques et commerciales",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.inseec.fr/"
+        ],
+        "domains": [
+            "inseec.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut National des Télécommunications",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.int-evry.fr/"
+        ],
+        "domains": [
+            "int-evry.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure d'Optique",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.iota.u-psud.fr/~ecole/"
+        ],
+        "domains": [
+            "iota.u-psud.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut de Recherche et Coordination Acoustique/Musique",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ircam.fr/"
+        ],
+        "domains": [
+            "ircam.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut de Recherche et d'Enseignement Supérieur aux Techniques de l'électronique",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ireste.fr/"
+        ],
+        "domains": [
+            "ireste.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut Supérieur Agricole de Beauvais",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.isab.fr/"
+        ],
+        "domains": [
+            "isab.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut Supérieur d'Agriculture Lille",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.isa.fupl.asso.fr/"
+        ],
+        "domains": [
+            "isa.fupl.asso.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut Supérieur d'Agriculture Rhone-Alpes",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.isara.fr/"
+        ],
+        "domains": [
+            "isara.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut Supérieure d'Electronique du Nord",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.isen.fr/"
+        ],
+        "domains": [
+            "isen.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut Supérieure d'Electronique de Paris",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.isep.fr/"
+        ],
+        "domains": [
+            "isep.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut des Sciences de l'Ingénieur de Montpellier",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.isim.univ-montp2.fr/"
+        ],
+        "domains": [
+            "isim.univ-montp2.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Centre d'Etudes Supérieures des Techniques Industrielles",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ismcm-cesti.fr/"
+        ],
+        "domains": [
+            "ismcm-cesti.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut des Sciences de la Matière et du Rayonnement",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ismra.fr/"
+        ],
+        "domains": [
+            "ismra.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut Textile et Chimique de Lyon",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.itech.fr/"
+        ],
+        "domains": [
+            "itech.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Sorbonne Université - Faculté des Sciences (Paris VI)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://sciences.sorbonne-universite.fr/"
+        ],
+        "domains": [
+            "jussieu.fr",
+            "etu.upmc.fr",
+            "upmc.fr",
+            "etu.sorbonne-universite.fr",
+            "sorbonne-universite.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure des Mines de Nancy",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.mines.u-nancy.fr/"
+        ],
+        "domains": [
+            "mines.u-nancy.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Michel de Montaigne (Bordeaux III )",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.montaigne.u-bordeaux.fr/"
+        ],
+        "domains": [
+            "montaigne.u-bordeaux.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Montesquieu (Bordeaux IV)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.montesquieu.u-bordeaux.fr/"
+        ],
+        "domains": [
+            "montesquieu.u-bordeaux.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole d'Architecture de Nancy",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.nancy.archi.fr/"
+        ],
+        "domains": [
+            "nancy.archi.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Paris-Sorbonne (Paris IV)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.paris4.sorbonne.fr/"
+        ],
+        "domains": [
+            "paris4.sorbonne.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure d'Arts et Métiers de Paris",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.paris.ensam.fr/"
+        ],
+        "domains": [
+            "paris.ensam.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Polytechnique Universitaire de Lille",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.polytech-lille.fr/"
+        ],
+        "domains": [
+            "polytech-lille.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Polytechnique Marseille",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.polytech-marseille.fr/"
+        ],
+        "domains": [
+            "polytech-marseille.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "École Polytechnique",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.polytechnique.fr/",
+            "https://www.polytechnique.edu/"
+        ],
+        "domains": [
+            "polytechnique.fr",
+            "polytechnique.edu"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Schiller International University, Paris",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.schillerparis.com/"
+        ],
+        "domains": [
+            "schillerparis.com"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Schiller International University, Strasbourg",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.schillerstrasbourg.com/"
+        ],
+        "domains": [
+            "schillerstrasbourg.com"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut d'Etudes Politiques de Paris (Sciences Po)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.sciences-po.fr/"
+        ],
+        "domains": [
+            "sciences-po.fr",
+            "sciencespo.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Denis Diderot (Paris VII)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.sigu7.jussieu.fr/"
+        ],
+        "domains": [
+            "sigu7.jussieu.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Superieure Robert de Sorbon",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.sorbon.fr/"
+        ],
+        "domains": [
+            "sorbon.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure de l'Aéronautique et de l'Espace",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.supaero.fr/"
+        ],
+        "domains": [
+            "supaero.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Groupe Sup de Co Amiens Picardie",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.supco-amiens.fr/"
+        ],
+        "domains": [
+            "supco-amiens.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Groupe Sup de Co Montpellier",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.supco-montpellier.fr/"
+        ],
+        "domains": [
+            "supco-montpellier.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Supérieure d'Electricité",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.supelec.fr/"
+        ],
+        "domains": [
+            "supelec.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université d'Aix-Marseille III",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.u-3mrs.fr/"
+        ],
+        "domains": [
+            "u-3mrs.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Victor Segalen (Bordeaux II)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.u-bordeaux2.fr/"
+        ],
+        "domains": [
+            "u-bordeaux2.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Bourgogne - Franche-Comté",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ubfc.fr/"
+        ],
+        "domains": [
+            "ubfc.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Cergy-Pontoise",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.u-cergy.fr/"
+        ],
+        "domains": [
+            "u-cergy.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université d'Auvergne (Clermont-Ferrand I)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.u-clermont1.fr/"
+        ],
+        "domains": [
+            "u-clermont1.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Catholique de l' Ouest",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.uco.fr/"
+        ],
+        "domains": [
+            "uco.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Grenoble Alpes",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.univ-grenoble-alpes.fr/"
+        ],
+        "domains": [
+            "u-grenoble3.fr",
+            "univ-grenoble-alpes.fr",
+            "ujf-grenoble.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Rennes II - Haute-Bretagne",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.uhb.fr/"
+        ],
+        "domains": [
+            "uhb.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Henri Poincaré (Nancy I)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.uhp-nancy.fr/"
+        ],
+        "domains": [
+            "uhp-nancy.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Caen Basse Normandie",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.unicaen.fr/"
+        ],
+        "domains": [
+            "unicaen.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Nice-Sophia Antipolis",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.unice.fr/"
+        ],
+        "domains": [
+            "unice.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Limoges",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.unilim.fr/"
+        ],
+        "domains": [
+            "unilim.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université d'Angers",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-angers.fr/"
+        ],
+        "domains": [
+            "univ-angers.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université d'Artois",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-artois.fr/"
+        ],
+        "domains": [
+            "univ-artois.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université d'Avignon",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-avignon.fr/"
+        ],
+        "domains": [
+            "univ-avignon.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Blaise Pascal (Clermont-Ferrand II)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-bpclermont.fr/"
+        ],
+        "domains": [
+            "univ-bpclermont.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Bretagne Occidentale",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-brest.fr/"
+        ],
+        "domains": [
+            "univ-brest.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Catholique de Lyon",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-catholyon.fr/"
+        ],
+        "domains": [
+            "univ-catholyon.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Corse Pascal Paoli",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-corse.fr/"
+        ],
+        "domains": [
+            "univ-corse.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université d'Evry Val d'Essonne",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-evry.fr/"
+        ],
+        "domains": [
+            "univ-evry.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure de Chimie de Toulouse",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-inpt.fr/~ensct/"
+        ],
+        "domains": [
+            "univ-inpt.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université du Havre",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-lehavre.fr/"
+        ],
+        "domains": [
+            "univ-lehavre.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université du Maine",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-lemans.fr/"
+        ],
+        "domains": [
+            "univ-lemans.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université des Sciences et Technologies de Lille (Lille I)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-lille1.fr/"
+        ],
+        "domains": [
+            "univ-lille1.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université du Droit et de la Sante (Lille II)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-lille2.fr/"
+        ],
+        "domains": [
+            "univ-lille2.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Charles-de-Gaulle (Lille III)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-lille3.fr/"
+        ],
+        "domains": [
+            "univ-lille3.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université du Littoral Cote d'Opale",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-littoral.fr/"
+        ],
+        "domains": [
+            "univ-littoral.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Lorraine",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-lorraine.fr/"
+        ],
+        "domains": [
+            "univ-lorraine.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de La Rochelle",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-lr.fr/"
+        ],
+        "domains": [
+            "univ-lr.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Claude Bernard (Lyon I)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-lyon1.fr/"
+        ],
+        "domains": [
+            "univ-lyon1.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Lumiére (Lyon II)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-lyon2.fr/"
+        ],
+        "domains": [
+            "univ-lyon2.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Jean Moulin (Lyon III)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-lyon3.fr/"
+        ],
+        "domains": [
+            "univ-lyon3.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de la Méditerranée (Aix Marseille II)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univmed.fr/"
+        ],
+        "domains": [
+            "univmed.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Metz",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-metz.fr/"
+        ],
+        "domains": [
+            "univ-metz.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Paris-Est Marne-la-Vallée",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-mlv.fr/",
+            "http://www.u-pem.fr/"
+        ],
+        "domains": [
+            "univ-mlv.fr",
+            "u-pem.fr",
+            "etud.u-pem.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Montpellier",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.umontpellier.fr/"
+        ],
+        "domains": [
+            "univ-montp1.fr",
+            "univ-montp2.fr",
+            "umontpellier.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Paul Valéry (Montpellier III)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-montp3.fr/"
+        ],
+        "domains": [
+            "univ-montp3.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Haute-Alsace",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-mulhouse.fr/",
+            "https://www.uha.fr/"
+        ],
+        "domains": [
+            "univ-mulhouse.fr",
+            "uha.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Nancy II",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-nancy2.fr/"
+        ],
+        "domains": [
+            "univ-nancy2.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Nantes",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-nantes.fr/"
+        ],
+        "domains": [
+            "univ-nantes.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université d'Orléans",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-orleans.fr/"
+        ],
+        "domains": [
+            "univ-orleans.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Val-de-Marne (Paris XII)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-paris12.fr/"
+        ],
+        "domains": [
+            "univ-paris12.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Paris Nord (Paris XIII)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-paris13.fr/"
+        ],
+        "domains": [
+            "univ-paris13.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Panthéon-Sorbonne (Paris I)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-paris1.fr/"
+        ],
+        "domains": [
+            "univ-paris1.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Sorbonne-Nouvelle (Paris III)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-paris3.fr/"
+        ],
+        "domains": [
+            "univ-paris3.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université René Descartes (Paris V)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-paris5.fr/"
+        ],
+        "domains": [
+            "univ-paris5.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Vincennes Saint-Denis (Paris VIII)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-paris8.fr/"
+        ],
+        "domains": [
+            "univ-paris8.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Pau et des Pays de l'Adour",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-pau.fr/"
+        ],
+        "domains": [
+            "univ-pau.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Perpignan",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-perp.fr/"
+        ],
+        "domains": [
+            "univ-perp.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Poitiers",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-poitiers.fr/"
+        ],
+        "domains": [
+            "univ-poitiers.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Reims Champagne-Ardenne",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-reims.fr/"
+        ],
+        "domains": [
+            "univ-reims.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Rennes I",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-rennes1.fr/"
+        ],
+        "domains": [
+            "univ-rennes1.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Rouen - Haute Normandie",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-rouen.fr/"
+        ],
+        "domains": [
+            "univ-rouen.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Savoie",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-savoie.fr/"
+        ],
+        "domains": [
+            "univ-savoie.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Jean Monnet",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-st-etienne.fr/"
+        ],
+        "domains": [
+            "univ-st-etienne.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université du Sud, Toulon et Var",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-tln.fr/"
+        ],
+        "domains": [
+            "univ-tln.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université des Sciences Sociales (Toulouse I)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-tlse1.fr/"
+        ],
+        "domains": [
+            "univ-tlse1.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Toulouse-le-Mirail (Toulouse II)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-tlse2.fr/"
+        ],
+        "domains": [
+            "univ-tlse2.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Toulouse-le-Mirail (Toulouse III)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-tlse3.fr/"
+        ],
+        "domains": [
+            "univ-tlse3.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Toulouse",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-toulouse.fr/"
+        ],
+        "domains": [
+            "univ-toulouse.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université François Rabelais de Tours",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-tours.fr/"
+        ],
+        "domains": [
+            "univ-tours.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Bretagne Sud",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-ubs.fr/"
+        ],
+        "domains": [
+            "univ-ubs.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Valenciennes et du Hainaut-Cambrésis",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-valenciennes.fr/"
+        ],
+        "domains": [
+            "univ-valenciennes.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Paris Nanterre (Paris X)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.u-paris10.fr/"
+        ],
+        "domains": [
+            "u-paris10.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Panthéon-Assas (Paris II)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.u-paris2.fr/"
+        ],
+        "domains": [
+            "u-paris2.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Picardie Jules-Verne",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.u-picardie.fr/"
+        ],
+        "domains": [
+            "u-picardie.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Paul Sabatier (Toulouse III)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ups-tlse.fr/"
+        ],
+        "domains": [
+            "ups-tlse.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Paris Sud (Paris XI)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.u-psud.fr/"
+        ],
+        "domains": [
+            "u-psud.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université d'Aix-Marseille",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-amu.fr/"
+        ],
+        "domains": [
+            "univ-amu.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Provence (Aix-Marseille I)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.up.univ-mrs.fr/"
+        ],
+        "domains": [
+            "up.univ-mrs.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université des Sciences Humaines (Strasbourg II)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://ushs.u-strasbg.fr/"
+        ],
+        "domains": [
+            "ushs.u-strasbg.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Technologie de Belfort Montbéliard",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.utbm.fr/"
+        ],
+        "domains": [
+            "utbm.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Technologie de Compiègne",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.utc.fr/"
+        ],
+        "domains": [
+            "utc.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Technologie de Troyes",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.utt.fr/"
+        ],
+        "domains": [
+            "utt.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Versailles Saint-Quentin-en-Yvelines",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.uvsq.fr/"
+        ],
+        "domains": [
+            "uvsq.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Vétérinaire d'Alfort",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.vet-alfort.fr/"
+        ],
+        "domains": [
+            "vet-alfort.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Vétérinaire de Lyon",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.vet-lyon.fr/"
+        ],
+        "domains": [
+            "vet-lyon.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Vétérinaire de Nantes",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.vet-nantes.fr/"
+        ],
+        "domains": [
+            "vet-nantes.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Européenne de Chimie, Polymères et Matériaux de Strasbourg",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www-ecpm.u-strasbg.fr/"
+        ],
+        "domains": [
+            "www-ecpm.u-strasbg.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale du Génie de l'Eau et de l'Environnement de Strasbourg",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www-engees.u-strasbg.fr/"
+        ],
+        "domains": [
+            "www-engees.u-strasbg.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure des Arts et Industries de Strasbourg",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www-ensais.u-strasbg.fr/"
+        ],
+        "domains": [
+            "www-ensais.u-strasbg.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut polytechnique de Grenoble",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://grenoble-inp.fr/",
+            "https://phelma.grenoble-inp.fr/",
+            "https://ensimag.grenoble-inp.fr/",
+            "https://ense3.grenoble-inp.fr/",
+            "https://esisar.grenoble-inp.fr/",
+            "https://genie-industriel.grenoble-inp.fr/",
+            "https://pagora.grenoble-inp.fr/"
+        ],
+        "domains": [
+            "grenoble-inp.fr",
+            "inpg.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Nationale Supérieure de Physique de Strasbourg",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www-ensps.u-strasbg.fr/"
+        ],
+        "domains": [
+            "www-ensps.u-strasbg.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Louis Pasteur (Strasbourg I)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www-ulp.u-strasbg.fr/"
+        ],
+        "domains": [
+            "www-ulp.u-strasbg.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Robert Schuman (Strasbourg III)",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www-urs.u-strasbg.fr/"
+        ],
+        "domains": [
+            "www-urs.u-strasbg.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Strasbourg",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.unistra.fr/"
+        ],
+        "domains": [
+            "unistra.fr",
+            "etu.unistra.fr",
+            "dpt-info.u-strasbg.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole pour l'Informatique et les nouvelles Technologies",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.epitech.eu/"
+        ],
+        "domains": [
+            "epitech.eu",
+            "epitech.net"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole Pour l'Informatique et les Techniques Avancees",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.epita.fr/"
+        ],
+        "domains": [
+            "epita.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut polytechnique des sciences avancees",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.ipsa.fr/"
+        ],
+        "domains": [
+            "ipsa.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Ecole des technologies numeriques appliquees",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.etna.io/"
+        ],
+        "domains": [
+            "etna.io"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut Sup'Biotech de Paris",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.supbiotech.fr/"
+        ],
+        "domains": [
+            "supbiotech.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "DUT MMI - Université Bordeaux Montaigne",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.mmibordeaux.com/"
+        ],
+        "domains": [
+            "mmibordeaux.com"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Campus Saint Marc",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://campus-saint-marc.com/"
+        ],
+        "domains": [
+            "campus-saint-marc.com",
+            "csmrouen.com",
+            "csmrouen.net"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut d'études politiques de Rennes",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.sciencespo-rennes.fr/en/"
+        ],
+        "domains": [
+            "sciencespo-rennes.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Rennes School of Business",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.rennes-sb.com/"
+        ],
+        "domains": [
+            "rennes-sb.com"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Audencia",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.audencia.com/"
+        ],
+        "domains": [
+            "audencia.com"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Académie d'Orléans-Tours",
+        "alpha_two_code": "FR",
+        "state-province": "Centre-Val de Loire",
+        "web_pages": [
+            "https://www.ac-orleans-tours.fr/"
+        ],
+        "domains": [
+            "ac-orleans-tours.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Académie de Besançon",
+        "alpha_two_code": "FR",
+        "state-province": "Burgundy-Franche-Comté",
+        "web_pages": [
+            "https://www.ac-besancon.fr"
+        ],
+        "domains": [
+            "ac-besancon.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Clermont Auvergne",
+        "alpha_two_code": "FR",
+        "state-province": "Auvergne-Rhône-Alpes",
+        "web_pages": [
+            "https://www.uca.fr"
+        ],
+        "domains": [
+            "uca.fr"
+        ]
+    },
+    {
+        "name": "SKEMA Business School",
+        "alpha_two_code": "FR",
+        "country": "France",
+        "state-province": null,
+        "web_pages": [
+            "https://www.skema.edu/"
+        ],
+        "domains": [
+            "skema.edu"
+        ]
+    },
+    {
+        "name": "INSEAD",
+        "alpha_two_code": "FR",
+        "country": "France",
+        "state-province": null,
+        "web_pages": [
+            "https://www.insead.edu/"
+        ],
+        "domains": [
+            "insead.edu"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Académie de Mayotte",
+        "alpha_two_code": "FR",
+        "state-province": "Mayotte",
+        "web_pages": [
+            "https://www.ac-mayotte.fr"
+        ],
+        "domains": [
+            "ac-mayotte.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Collège de France",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.college-de-france.fr"
+        ],
+        "domains": [
+            "college-de-france.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "University of Burgundy",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://u-bourgogne.fr/"
+        ],
+        "domains": [
+            "u-bourgogne.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Académie de Bordeaux",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://ac-bordeaux.fr/"
+        ],
+        "domains": [
+            "ac-bordeaux.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institut privé d'enseignement supérieur",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.insead.edu/"
+        ],
+        "domains": [
+            "insead.edu"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Paris-Saclay",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.universite-paris-saclay.fr"
+        ],
+        "domains": [
+            "universite-paris-saclay.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "INU Champollion",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.univ-jfc.fr/"
+        ],
+        "domains": [
+            "univ-jfc.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Institute Français de la Mode",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.ifmparis.fr/"
+        ],
+        "domains": [
+            "ifmparis.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "EIGSI La Rochelle",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.eigsi.fr/"
+        ],
+        "domains": [
+            "eigsi.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Rennes 2",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.univ-rennes2.fr/"
+        ],
+        "domains": [
+            "univ-rennes2.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Franche Comté",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://univ-fcomte.fr/"
+        ],
+        "domains": [
+            "univ-fcomte.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Paris IV Sorbonne",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.paris-sorbonne.fr/"
+        ],
+        "domains": [
+            "paris-sorbonne.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Diderot Paris 7",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-paris-diderot.fr/english/"
+        ],
+        "domains": [
+            "univ-paris-diderot.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Paris Ouest Paris X Nanterre",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.parisnanterre.fr/"
+        ],
+        "domains": [
+            "parisnanterre.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université de Nimes",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.unimes.fr/"
+        ],
+        "domains": [
+            "unimes.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Champollion",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.univ-jfc.fr/"
+        ],
+        "domains": [
+            "univ-jfc.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Pierre Mendès France",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.upmf-grenoble.fr/"
+        ],
+        "domains": [
+            "upmf-grenoble.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Université Paris est Créteil Val de Marne Paris XII",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "http://www.u-pec.fr/"
+        ],
+        "domains": [
+            "u-pec.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "American Business School of Paris",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.absparis.com/"
+        ],
+        "domains": [
+            "absparis.com"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "ESLSCA Business School Paris",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.eslsca.fr/"
+        ],
+        "domains": [
+            "eslsca.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "UniLaSalle",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.unilasalle.fr/"
+        ],
+        "domains": [
+            "unilasalle.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "Yncrea",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://yncrea.fr/"
+        ],
+        "domains": [
+            "yncrea.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "IAE France",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://www.iae-france.fr/"
+        ],
+        "domains": [
+            "iae-france.fr"
+        ]
+    },
+    {
+        "country": "France",
+        "name": "ESCP Business School",
+        "alpha_two_code": "FR",
+        "state-province": null,
+        "web_pages": [
+            "https://escp.eu/"
+        ],
+        "domains": [
+            "escp.eu"
+        ]
+    }
+]
+
+----------------------------------------------------------
+
+Validated HTTP status code is 200.
+
+Number of universities in France: 297
+
+University count in France and response logging successful!
+]]></system-out>
+  </testcase>
+</testsuite>
